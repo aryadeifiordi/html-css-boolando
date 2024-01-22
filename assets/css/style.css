@@ -1,5 +1,4 @@
-.container{
-    size: auto;
+.header-container{
     background-color: #ff5b00;
     width: auto;
     height: 50px;
@@ -17,16 +16,50 @@
 }
 .boolean{
     display: flex;
-    
+    align-items: center;
 }
-i{ font-size: 30px;
+.header-container i { 
+    font-size: 30px;
+    color:white;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
 
 }
-.first-card{
-    display: flex;
+.card{
+    width: calc(100%/3);
     align-content: center;
+    overflow: hidden;
 }
-.second-card{
+.card-image {
+    position: relative;
+}
+.card-image img {
+    width: 100%;
+}
+.card-content h1 {
+    font-size: 1.2em;;
+}
+.card-content h2{
+    font-size: 0.5em;
+}
+.card .card-heart {
+    color: red;
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+.box-green{
+    background-color: green;
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
     display: flex;
     align-content: center;
+
 }
