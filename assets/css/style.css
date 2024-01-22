@@ -1,0 +1,20 @@
+.container{
+    background-color: #ff5b00;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.choose{
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+  
+}
+img{
+   background-size: ;
+}
+.boolean{
+    display: flex;
+    
+}
