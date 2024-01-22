@@ -11,10 +11,14 @@
    justify-content: space-between;
   
 }
-img{
-   background-size: ;
+.img-boolean{
+    width: 120px;
 }
 .boolean{
     display: flex;
     
+}
+.fa-shopping-bag{
+    font-size: 20px;
+
 }
