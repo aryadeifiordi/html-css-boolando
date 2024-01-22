@@ -1,4 +1,5 @@
 .container{
+    size: auto;
     background-color: #ff5b00;
     width: auto;
     height: 50px;
@@ -18,7 +19,14 @@
     display: flex;
     
 }
-.fa-shopping-bag{
-    font-size: 20px;
+i{ font-size: 30px;
 
+}
+.first-card{
+    display: flex;
+    align-content: center;
+}
+.second-card{
+    display: flex;
+    align-content: center;
 }
