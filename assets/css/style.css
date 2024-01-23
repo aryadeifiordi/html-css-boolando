@@ -9,8 +9,9 @@
    list-style-type: none;
    display: flex;
    justify-content: space-between;
+   gap: o.5rem;
   
-}
+}  
 .img-boolean{
     width: 120px;
 }
